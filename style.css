@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(to bottom, rgb(0, 204, 255), rgb(0, 121, 151), rgb(0, 71, 88));
+    width: 397px;
+    height: 844px;
+}
+
+nav {
+    background-color: rgb(0, 0, 0);
+    height: 5rem;
+    font-family: Montserrat;
+    overflow: scroll;
+}
+
+nav a {
+    font-size: 150%;
+    color: white;
+    font-weight: 500;
+    background-color: rgb(48, 48, 48);
+}
+
+main {
+    width: 100%;
+}
+
+main img {
+    margin-top: 30%;
+    width: 90%;
+    height: 120%;
+}
+
+#yoyo {
+    background-image: url(https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmtjbW81Zmx3enpoc29idXY1dzZuc2g1bmhxNDk4ZjgyNHo2cmNraCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QpVUMRUJGokfqXyfa1/giphy.gif);
+    color: rgb(20, 85, 182);
+    font-family: orbitron;
+    text-align: center;
+    
+}
+
+h1 {
+    font-family: orbitron;
+    color: rgb(255, 255, 255);
+    width: 1.5rem;
+}
+
+p {
+    font-family: bitcount-grid-double;
+    color: rgb(255, 255, 255);
+    width: 400px;
+}
