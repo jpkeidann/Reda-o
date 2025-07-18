@@ -1,6 +1,20 @@
 @keyframes slide-rotate-hor-t-bck{0%{transform:translateY(0) translateZ(0) rotateX(0deg);transform-origin:top center}100%{transform:translateY(-150px) translateZ(-230px) rotateX(-90deg);transform-origin:top center}}
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Bungee+Inline&family=Orbitron:wght@400..900&family=Press+Start+2P&family=Teko:wght@300..700&family=Yeseva+One&display=swap');
+
+body{
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 0;
+  font-style: normal;
+}
+
+h1{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  font-size: 2.5rem;
+}
 
 *{
     margin: 0;
@@ -9,7 +23,23 @@
 
 body{
     text-align: center;
+    background-color: rgb(226, 255, 187);
+}
+
+#principal{
+    text-align: center;
     background-color: white;
+}
+
+nav{
+    margin: 1rem;
+}
+
+nav a{
+    size: 1.5rem;
+    border: solid;
+    border-radius: 1rem;
+    border-color: black;
 }
 
 main {
@@ -17,20 +47,10 @@ main {
     width: 100%;
 }
 
-.CyberSegurança{
-    background-image: url(https://chat.google.com/u/0/api/get_attachment_url?url_type=FIFE_URL&content_type=image%2Fgif&attachment_token=AOo0EEVY5NfEN2JuStVJzMrMhVVq69T1nRaRXm0pd%2BRfvTFFaewr0CIhAQlbnrQnwXSW2wXmotqarVZD979EUVQloP3xu8QgvtyeFsqecw43%2B4XIfQQBOwORJYxQ9M%2Be%2FkVWFPPKtvq7f5bGWfAIphOPHotoQlpmVPOsuTrOfONrIbePwp14JTGr2fzA2WNz1DRKatZuon3CSjXk0L7ucxYwTjM2dUNxXUe%2FeIZ439%2FB5UjFzxZ53dfpvzvEe5pnILZYa7%2BM%2FBvPdVphE1iFtYx%2BZ0uRo4sRq2fqMpICuSp8EEatxbBOMj%2BA545Px%2BLimgkMvS14IjghU7wrpaUO%2BMwMeXslUns65LUJqicig85RCwWFPg%2Bdclvg54LHRsyx7nekTNxAz7wCyDEK3zzib3itfTFcnf9LPhMfryxWxHNZRxsKG2QoPkwKLQP6IydWQnOiPp%2BkAG3QPas3Xs64sYEpm2gbZdG%2FOMZDtatzZtn7F7c5A6uI5fBBC%2F1bPfxsoq0QUvV%2FnWSNkRyvDvhXX7wVujRT0V3rgkpRjV6ymh7HrH%2BoQu%2B77QE7x0%2FF9dcl%2BW2To5DMZcwx1w%3D%3D&allow_caching=true&sz=w512);
-    text-align: center;
-}
-
-h1{
-    font-family: Montserrat;
-    color: black;
-    font-size: 2.5rem;
-}
-
 p {
  color: black;
  font-size: 1.5rem;
+ line-height: 1.5
 }
 
 .cartaz{-webkit-animation:slide-rotate-hor-t-bck 1.5s cubic-bezier(.68,-.55,.265,1.55) reverse both;animation:slide-rotate-hor-t-bck 1.5s cubic-bezier(.68,-.55,.265,1.0) reverse both;
@@ -46,12 +66,10 @@ p {
 }
 
 .ImgEsc{-webkit-animation:slide-rotate-hor-t-bck 1.5s cubic-bezier(.68,-.55,.265,1.55) reverse both;animation:slide-rotate-hor-t-bck 1.5s cubic-bezier(.68,-.55,.265,1.0) reverse both;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    width: 50%;
-    height: 50%;
-    max-width: 600px;
-    max-height: 400px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 70%;
+    height: 20%;
     border-radius: 50px;
     border-style: solid;
     border-color: black;
@@ -62,7 +80,7 @@ p {
 }
 
 .temas{
-    background-color: white;
+    
     text-align: center;
     font-size: 1.2rem;
     color: black;
